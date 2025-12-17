@@ -18,3 +18,8 @@ test('Goto PW site and search', async({page})=>{
  
     await playwrightinput.fill('input')
 })
+
+
+test.beforeEach(async({page})=>{
+
+})
